@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///C:/Users/sodiq/Desktop/myportifolio/myportifol.html#mylink -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portifiolo</title>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        max-width:990px;
+        margin: auto;
+    
+    }
+.background  {
+        width: 100%;
+        height: 400px; 
+        background: rgb(193, 193, 224);
+    }
+    .text{
+        margin-top: 25px;
+    }
+
+    #myName{
+        color: blue;
+    }
+    #status{
+        color:rgb(197, 28, 28);
+    }
+    #h{
+        color:rgb(255, 0, 13);
+    }
+    #s{
+        color:blue;
+    }
+    .logo{
+        color:rgb(12, 10, 1);
+    }
+    p{
+        color:rgb(78, 78, 150);
+        font-family: fantasy;
+    }
+    #quote{
+        color: red;
+    }
+   
+    .img{
+        border-radius:60%;
+        width: 200px;
+        margin-left: 50px;
+        border: 10px double rgb(71, 75, 123);
+    }
+    ul{
+        margin:0;
+        padding:0;
+        list-style-type: none;
+        display: flex;
+    }
+    ul li{
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        margin: 10px;
+        
+    }
+    ul li a{
+        text-decoration: none;
+        color:rgb(31, 21, 172);
+
+    }
+
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+     .active{
+  border: 2px solid rgb(211, 175, 211);
+  padding:2px;
+  color:rgb(216, 12, 29);
+  background:rgb(140, 140, 190);
+    }
+    
+    .home_properties{
+        display:flex;
+justify-content: space-between;
+margin: 50px auto;
+    
+    }
+    .btn{
+        padding: 5px;
+        margin: 5px;
+        color: rgb(174, 36, 36);
+        background:rgb(226, 221, 221);
+        border-radius: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+    .btn a{
+ text-decoration: none;
+color: red;
+}
+/* contetne */
+.columns{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.col1{
+     width: 35%;
+     height: 270px;
+     border-radius: 20px; 
+     padding: 10px; 
+     background: rgb(74, 74, 204);
+     
+}
+.col2{
+    width: 35%;
+     height: 270px;
+     border-radius: 20px; 
+     padding: 10px; 
+     background: rgb(193, 193, 224);
+     color:blue;
+
+margin:auto;
+
+     
+}
+.col_child01{
+    text-align: center;
+}
+.col1_child02 ul{
+    display:block;
+}
+.col1 ul{
+    display: block;
+    font-family: fantasy;
+}
+.col_child1, .col_child2{
+    text-align:center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(236, 217, 217);
+
+}
+
+/* My Work */
+.myworks{
+margin: auto 100px;
+}
+.works_Gallery img{
+    width: 30%;
+    margin: 10px;
+    transition:cubic-bezier(0.6, -0.28, 0.735, 0.045)
+    
+}
+#mywork_image:hover{
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    margin:0;
+}
+#myworkline a{
+text-decoration: 0;
+
+}
+/* MY Skills */
+.html_progress,
+ .css_progress,
+ .js_progress,
+ .bs_progress{
+    position: relative;
+    width:50%;
+    height:20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background: rgb(202, 192, 192);
+    margin:0;
+}
+.myBar_html{
+    position:absolute;
+    width: 90%;
+    height: 100%;
+    background-color:  green;
+}
+.myBar_css{
+    position:absolute;
+    width: 80%;
+    height: 100%;
+    background-color:  red;
+}
+.myBar_js{
+    position:absolute;
+    width: 60%;
+    height: 100%;
+    background-color:  rgb(236, 240, 25);
+}
+.myBar_bs{
+    position:absolute;
+    width: 70%;
+    height: 100%;
+    background-color:  rgb(128, 94, 0);
+}
+
+.mySkills{
+    background: rgb(184, 180, 180);
+    width: 100%;
+    height:280px
+    }
+  
+.skill_Case{
+    margin: 10px;
+
+}
+.skill_Case h4 {
+text-align:left;
+}
+.our_skills{
+    border-bottom: 10px solid rgb(133, 75, 75);
+    width: 10%;
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;  
+}
+
+
+<!----Contact-->
+.contacted{
+    justify-content: center;
+}
+.contacting{
+    background-color: #000;
+}
+form{
+    margin: 10px;
+    text-align:center;
+    
+}
+form, h4{
+text-align: center;
+
+margin-top: 10px;
+}
+#name,
+ #email{
+    padding: 10px;
+    width: 30%;
+}
+.button{
+ padding: 8px;
+ color:blue;
+}
+
+.button:hover{
+    color:white;
+    background: black;
+}
+
+<!---FOOTER-->
+.footer-container{
+   background:black;
+}
+.footer{
+    display:flex;
+   background:black;
+   padding: 20px;
+
+}
+.footer_col1 ul, .footer_col2 ul, .footer_col3 ul{
+    display:block;
+    color: rgb(0, 40, 99);
+}
+
+</style></head>
+
+<body>
+    <div class="container"> 
+        <div class="background">
+<div class="header">
+    <div class="logo">
+        <h4> <span id="s">S</span>oftTec<span id="h">H</span></h4>
+    </div>
+    <div class="menulink">
+        <ul>
+            <li class="active"><a href="file:///C:/Users/sodiq/Desktop/myportifolio/myportifol.html#">Home</a></li>
+            <li><a href="file:///C:/Users/sodiq/Desktop/myportifolio/myportifol.html#">Contact</a></li>
+            <li><a href="file:///C:/Users/sodiq/Desktop/myportifolio/myportifol.html#">Mywork</a></li>
+            <li><a href="file:///C:/Users/sodiq/Desktop/myportifolio/myportifol.html#">Service</a></li>
+
+        </ul>
+    </div>
+</div>
+        <div class="home_properties">
+        <div class="text">
+                <h3>My Name is <span id="myName">Abdulazeez Sodiq</span> </h3>
+                
+                <h4>I'm a  <span id="status"> Front-End-Developer</span></h4>
+<br>
+                <p>  <span id="quote">"</span> Don't let us what you do, <br>
+                                                   show us what you do! <span id="quote">"</span>
+                </p>
+
+                <button class="btn"><a id="myworkline" href="file:///C:/Users/sodiq/Desktop/myportifolio/myportifol.html#mylink">Then Click Here</a></button>
+            </div>
+
+            <div class="image">
+                <img src="./My Portifiolo_files/wed.jpg" alt=" Sodtech" class="img">
+            </div>
+            
+        </div>
+        </div>
+
+        <!----Contents-->
+        <div class="contained_content">
+
+        <br>
+            <div class="columns">
+                <div class="col1">
+                    <div class="col_child1">
+                        <img src="file:///C:/Users/sodiq/Desktop/myportifolio/myportifol.html" alt="">
+                    </div>
+                    <div class="col_child2">
+                    <h4 style="color:rgb(238, 104, 104)">Graphic Designer</h4>
+                    <h5>Our work this not the best nor perfect
+                        bout are the ones client are lookin for.
+                    </h5>
+                </div>
+           
+            <div class="col_child3">
+                    <ul>
+                        <li> Poster</li>
+                        <li>Flyer</li>
+                        <li>Mock up</li>
+                        <li>Business Card</li>
+                        
+                
+                    </ul>
+                </div>
+                </div>
+
+                <div class="col1">
+                    <div class="col_child1">
+                        <img src="file:///C:/Users/sodiq/Desktop/myportifolio/myportifol.html" alt="">
+                    </div>
+                    <div class="col_child2">
+                    <h4 style="color:rgb(238, 104, 104)">Web Designer</h4>
+                    <h5>Our work this not the best nor perfect
+                        bout are the ones client are lookin for.
+                    </h5>
+                </div>
+           
+            <div class="col_child3">
+                    <ul>
+                        <li> UI</li>
+                        <li>UX</li>
+                        <li>GUI (Graphical User interface)</li>
+                       
+                        
+                    </ul>
+                </div>
+                </div>
+            </div>
+
+            <div class="col2">
+
+                    <div class="col_child1">
+                        <img src="file:///C:/Users/sodiq/Desktop/myportifolio/myportifol.html" alt="">
+                    </div>
+                    <div class="col_child01">
+                    <h4>WEB DEVELOPING</h4>
+                    <h5>
+                        Using tools like:
+                    </h5>
+                </div>
+                    <div class="col1_child02">
+                        <ul>
+                            <li>Wordpress</li>
+                            <li>Writing Code From scratch</li>
+                            <li>Woo</li>
+                            <li>Shotify</li>
+                            <li>Web builder</li>
+                        </ul>
+                    </div>
+                  
+                </div>
+           
+            
+            </div>
+        </div>
+        <br>
+        <br>
+        <!---My Works- - web designer--->
+        <div id="mylink" class="myworks">
+            <div class="col_child01">
+                <h3 style="color:red;">My Portifolio</h3>
+              
+                
+                <h4>Graphic Designes</h4>
+            </div>
+            <div class="works_Gallery">
+                <img src="./My Portifiolo_files/back.jpg" alt="works">
+                <img src="./My Portifiolo_files/BA.jpg" alt="works">
+
+                <img src="./My Portifiolo_files/background2.jpg" alt="works">
+
+                <img src="./My Portifiolo_files/back.jpg" alt="works">
+                <img src="./My Portifiolo_files/back.jpg" alt="works">
+                <img src="./My Portifiolo_files/BA.jpg" alt="works">
+
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <!--- MY Work --  Graphic designs-->
+        <div class="myworks">
+            <div class="col_child01">
+                <h3 style="color:red;">My Portifolio</h3>
+              
+                
+                <h4>Web Designing</h4>
+            </div>
+            <div class="works_Gallery">
+                <img id="mywork_image" src="./My Portifiolo_files/back.jpg" alt="works">
+                <img id="mywork_image" src="./My Portifiolo_files/BA.jpg" alt="works">
+
+                <img id="mywork_image" src="./My Portifiolo_files/background2.jpg" alt="works">
+
+                <img id="mywork_image" src="./My Portifiolo_files/back.jpg" alt="works">
+                <img id="mywork_image" src="./My Portifiolo_files/back.jpg" alt="works">
+                <img id="mywork_image" src="./My Portifiolo_files/BA.jpg" alt="works">
+
+            </div>
+        </div>
+
+        <!--- MY Skills-->
+        <div class="mySkills">
+            <div class="our_skills">
+                <h3 style="text-align:center;">My Skills</h3>
+            </div>
+            <div class="col_skill">
+            <div class="skill_Gallery">
+                <div class="skill_Case">
+                    <h4 id="skill_lebel" style="color:blue;">HTML</h4>
+                    <div class="html_progress">
+                        <div class="myBar_html"></div> 
+                    </div>
+                </div>
+
+                <div class="skill_Case">
+                    <h4 style="color:white;">CSS</h4>
+                    <div class="css_progress">
+                        <div class="myBar_css"></div> 
+                    </div>
+                </div>
+
+                <div class="skill_Case">
+                    <h4 style="color:red;">JAVASCCRIPT</h4>
+                    <div class="js_progress">
+                        <div class="myBar_js"></div> 
+                    </div>
+                </div>
+                
+                <div class="skill_Case">
+                <h4 style="color:yellow;">BOOTSTRAP</h4>
+                <div class="bs_progress">
+                    <div class="myBar_bs">
+                       
+                    </div> 
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+
+        <!----contact--->
+<div class="contacted">
+    <div class="contacting">
+    <h4 style="color:white;">Contact ME</h4>
+    <form action="file:///C:/Users/sodiq/Desktop/myportifolio/myportifol.html" method="post">
+    <input type="name" id="name" placeholder="Name"><br>
+    <input type="email" id="email" placeholder="Email"><br>
+    <textarea name="message" rows="10" cols="30"> Waiting..... </textarea><br>
+    <button type="submit" class="button">SEND</button>
+</form>
+</div>
+</div>
+
+
+
+
+<!----FOOTER-->
+<div class="footer_container">
+    <div class="footer">
+        <div class="footer_col1">
+            <ul>
+                <li>Home</li>
+                <li>Contact</li>
+                <li>Service</li>
+                <li>Training</li>
+                <li>Term $ Privacy</li>
+            </ul>
+        </div>
+
+        <div class="footer_col2">
+            <ul>
+            <li>About me</li>
+            <li>SoftTech.limited</li>
+            <li>Web development</li>
+            <li>Graphic design</li>
+            <li>Mentorship</li>
+        </ul>
+        </div>
+        <div class="footer_col3">
+            <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>Instagram</li>
+                <li>gitHub</li>
+                <li>Javascript Teams</li>
+            </ul>
+        </div>
+        </div>
+        <h4>copyright-2021</h4>
+       
+</div>
+           
+    
+<!----
+    .change the font
+    .add icons to the serivec area.
+    .mobile view.
+    .then depoly on github
+
+-->
+</body
+></html>
